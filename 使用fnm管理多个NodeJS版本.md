@@ -15,6 +15,7 @@ cd ~
 git clone https://github.com/Schniz/fnm.git
 bash fnm/.ci/install.sh -d ~/.fnm
 echo 'eval "$(fnm env --use-on-cd)"' >> .bashrc # 此项用于不同文件夹下使用不同NodeJS版本。
+source ~/.bashrc
 fnm --version
 ```
 
