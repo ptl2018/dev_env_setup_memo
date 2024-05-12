@@ -1,4 +1,4 @@
-# 更新Gradle Wrapper镜像源为阿里源
+# 更新Gradle Wrapper镜像源
 
 信息源:  
 
