@@ -16,10 +16,7 @@ Linux: `$HOME/.config/pip/pip.conf`
 ```ini
 [global]
 index-url = https://pypi.tuna.tsinghua.edu.cn/simple
-extra-index-url = 
-    https://mirrors.aliyun.com/pypi/simple/
+
 [install]
-trusted-host = 
-    pypi.tuna.tsinghua.edu.cn
-    mirrors.aliyun.com
+trusted-host = pypi.tuna.tsinghua.edu.cn
 ```
