@@ -1,4 +1,4 @@
-# 更新apt镜像源为
+# 更新apt镜像源为阿里Ubuntu镜像源
 
 信息源: [阿里Ubuntu 镜像源](https://developer.aliyun.com/mirror/ubuntu)
 
