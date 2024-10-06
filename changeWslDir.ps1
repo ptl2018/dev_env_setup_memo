@@ -55,7 +55,7 @@ wsl -l -v
 # 获取导入对象的Ubuntu命令
 $ubuntuCmd = ($wsl_distro -replace '[^a-zA-Z0-9]', '').ToLower()
 # 获取镜像中原用户名
-$org_user = wsl -d $wsl_distro -- eval "ls /home | grep -v ubuntu"
+$org_user = wsl -d $wsl_distro -- eval "ls /home | grep -v ubuntu | grep -v linuxbrew"
 # 设置原用户为默认用户(不然，默认用户是root)
 Invoke-Expression "$ubuntuCmd config --default-user $org_user"
 
