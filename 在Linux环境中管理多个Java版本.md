@@ -1,4 +1,4 @@
-# 在Linux管理多个Java环境
+# 在Linux环境中管理多个Java版本
 
 在国外时我一般使用[SDKMAN](https://sdkman.io/)来在Linux/Mac上安装及管理JDK版本。  
 但是在国内，因种种原因，速度太慢，或不稳定，有相当一段时间没用SDKMAN。  
