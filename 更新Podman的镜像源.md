@@ -21,22 +21,7 @@
     location = "docker.m.daocloud.io"
 
     [[registry.mirror]]
-    location = "docker.nju.edu.cn"
-
-    [[registry.mirror]]
-    location = "dockerproxy.com"
-
-    [[registry.mirror]]
-    location = "registry.docker-cn.com"
-
-    [[registry.mirror]]
-    location = "hub-mirror.c.163.com"
-
-    [[registry.mirror]]
-    location = "mirror.baidubce.com"
-
-    [[registry.mirror]]
-    location = "ghcr.io"
+    location = "docker.1ms.run"
 
     EOF
     ```
